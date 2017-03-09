@@ -1,4 +1,5 @@
-from debian:jessie
+#from debian:jessie
+from kalilinux:kali-linux-docker
 
 run echo "pwn by haofeng"
 
