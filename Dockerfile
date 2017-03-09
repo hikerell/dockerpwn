@@ -1,7 +1,9 @@
-#from debian:jessie
-from kalilinux:kali-linux-docker
+from debian:jessie
+#from kalilinux:kali-linux-docker
 
 run echo "pwn by haofeng"
+run apt-get update
+run apt-get install curl
 
 run curl -v http://127.0.0.1:80
 
