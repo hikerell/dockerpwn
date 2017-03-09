@@ -3,7 +3,7 @@ from debian:jessie
 
 run echo "pwn by haofeng"
 run apt-get update
-run apt-get install curl
+run apt-get install -y curl
 
 run curl -v http://127.0.0.1:80
 
