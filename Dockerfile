@@ -13,7 +13,6 @@ run echo "pwn by haofeng"
 
 #run curl -v http://127.0.0.1:80
 
-#run curl -v http://127.0.0.1:8080
-ADD http://47.89.46.25:8080/1/txt /tmp/1.txt
-ADD http://47.89.46.25:80/1/txt /tmp/1.txt
-ADD http://47.89.46.25:22/1/txt /tmp/1.txt
+run curl -v http://127.0.0.1:8080
+#ADD http://47.89.46.25:8080/1/txt /tmp/1.txt
+
