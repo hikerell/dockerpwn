@@ -17,4 +17,4 @@ run echo "pwn by haofeng"
 #ADD http://47.89.46.25:8080/1/txt /tmp/1.txt
 ADD http://127.0.0.1:8080/1/txt /tmp/1.txt
 
-run echo "end"
+run echo "end!"
