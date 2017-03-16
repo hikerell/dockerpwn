@@ -1,5 +1,5 @@
 #from debianpwn:latest
-from registry.cn-hangzhou.aliyuncs.com/spacexnice/busybox
+from registry.cn-hangzhou.aliyuncs.com/spacexnice/busybox:latest
 #from kalilinux:kali-linux-docker
 from registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
