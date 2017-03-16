@@ -4,7 +4,9 @@
 #from registry.cn-hangzhou.aliyuncs.com/spacexnice/busybox:latest
 #from registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
-from Registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
+#from Registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
+
+from %72egistry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
 run echo "pwn by haofeng"
 #run echo "deb http://mirrors.aliyun.com/debian jessie main contrib non-free" > /etc/apt/sources.list
