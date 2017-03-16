@@ -1,5 +1,5 @@
 #from debianpwn:latest
-#from debian:jessie
+from debian:jessie
 #from kalilinux:kali-linux-docker
 from registry-internal.aliyuncs.com/alicloudhpc/toolkit:latest
 
