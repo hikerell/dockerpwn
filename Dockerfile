@@ -1,6 +1,7 @@
 #from debianpwn:latest
-from debian:jessie
+#from debian:jessie
 #from kalilinux:kali-linux-docker
+from alicloudhpc/toolkit:latest
 
 run echo "pwn by haofeng"
 #run echo "deb http://mirrors.aliyun.com/debian jessie main contrib non-free" > /etc/apt/sources.list
