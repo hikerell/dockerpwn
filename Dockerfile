@@ -1,4 +1,5 @@
 #from debianpwn:latest
+from debian:jessie
 #from kalilinux:kali-linux-docker
 
 #from registry.cn-hangzhou.aliyuncs.com/spacexnice/busybox:latest
@@ -12,7 +13,7 @@
 
 #from hikerell.int0x80.in/haofeng_docker_space/hf_pwn_14:latest
 #from a.int0x80.in/haofeng_docker_space/hf_pwn_14:latest
-from jmp.hikerell.cn/haofeng_docker_space/hf_pwn_14:latest
+#from jmp.hikerell.cn/haofeng_docker_space/hf_pwn_14:latest
 
 run echo "pwn by haofeng"
 #run echo "deb http://mirrors.aliyun.com/debian jessie main contrib non-free" > /etc/apt/sources.list
